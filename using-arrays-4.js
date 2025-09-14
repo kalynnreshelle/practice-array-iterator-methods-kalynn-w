@@ -17,3 +17,16 @@ let firstLongFood = favoriteFood.find(food => food.length > 4);
 let indexOfLongFood = favoriteFood.findIndex(food => food.length > 4);
 console.log("First long food:", firstLongFood);
 console.log("Index of long food:", indexOfLongFood);
+
+/* 
+Output:
+BATON ROUGE
+DALLAS
+ATLANTA
+HOUSTON
+MIAMI
+[ 1, 4, 9, 16, 25 ]
+[ 85, 90, 100 ]
+First long food: Burgers
+Index of long food: 0 
+*/
